@@ -30,13 +30,13 @@ namespace HotelReservation
         private void InitializeComponent()
         {
             this.nightForm1 = new ReaLTaiizor.Forms.NightForm();
-            this.button1 = new ReaLTaiizor.Controls.Button();
-            this.button2 = new ReaLTaiizor.Controls.Button();
-            this.LogoutBtn = new ReaLTaiizor.Controls.Button();
-            this.button4 = new ReaLTaiizor.Controls.Button();
-            this.button5 = new ReaLTaiizor.Controls.Button();
-            this.NewAccountBtn = new ReaLTaiizor.Controls.Button();
             this.metroControlBox1 = new ReaLTaiizor.Controls.MetroControlBox();
+            this.NewAccountBtn = new ReaLTaiizor.Controls.Button();
+            this.button5 = new ReaLTaiizor.Controls.Button();
+            this.button4 = new ReaLTaiizor.Controls.Button();
+            this.LogoutBtn = new ReaLTaiizor.Controls.Button();
+            this.button2 = new ReaLTaiizor.Controls.Button();
+            this.ClientBtn = new ReaLTaiizor.Controls.Button();
             this.nightForm1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +49,7 @@ namespace HotelReservation
             this.nightForm1.Controls.Add(this.button4);
             this.nightForm1.Controls.Add(this.LogoutBtn);
             this.nightForm1.Controls.Add(this.button2);
-            this.nightForm1.Controls.Add(this.button1);
+            this.nightForm1.Controls.Add(this.ClientBtn);
             this.nightForm1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.nightForm1.DrawIcon = false;
             this.nightForm1.Font = new System.Drawing.Font("Segoe UI", 9F);
@@ -62,110 +62,6 @@ namespace HotelReservation
             this.nightForm1.TabIndex = 0;
             this.nightForm1.TextAlignment = ReaLTaiizor.Forms.NightForm.Alignment.Left;
             this.nightForm1.TitleBarTextColor = System.Drawing.Color.Gainsboro;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Image = null;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button1.Location = new System.Drawing.Point(25, 50);
-            this.button1.Name = "button1";
-            this.button1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.button1.Size = new System.Drawing.Size(234, 171);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.TextAlignment = System.Drawing.StringAlignment.Center;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button2.Image = null;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button2.Location = new System.Drawing.Point(289, 50);
-            this.button2.Name = "button2";
-            this.button2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.button2.Size = new System.Drawing.Size(234, 171);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.TextAlignment = System.Drawing.StringAlignment.Center;
-            // 
-            // LogoutBtn
-            // 
-            this.LogoutBtn.BackColor = System.Drawing.Color.Transparent;
-            this.LogoutBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LogoutBtn.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.LogoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.LogoutBtn.Image = null;
-            this.LogoutBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LogoutBtn.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.LogoutBtn.Location = new System.Drawing.Point(609, 79);
-            this.LogoutBtn.Name = "LogoutBtn";
-            this.LogoutBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.LogoutBtn.Size = new System.Drawing.Size(135, 125);
-            this.LogoutBtn.TabIndex = 3;
-            this.LogoutBtn.Text = "Logout";
-            this.LogoutBtn.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button4.Image = null;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button4.Location = new System.Drawing.Point(25, 247);
-            this.button4.Name = "button4";
-            this.button4.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.button4.Size = new System.Drawing.Size(234, 171);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.TextAlignment = System.Drawing.StringAlignment.Center;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button5.Image = null;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button5.Location = new System.Drawing.Point(289, 247);
-            this.button5.Name = "button5";
-            this.button5.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.button5.Size = new System.Drawing.Size(234, 171);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "button5";
-            this.button5.TextAlignment = System.Drawing.StringAlignment.Center;
-            // 
-            // NewAccountBtn
-            // 
-            this.NewAccountBtn.BackColor = System.Drawing.Color.Transparent;
-            this.NewAccountBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NewAccountBtn.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.NewAccountBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.NewAccountBtn.Image = null;
-            this.NewAccountBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.NewAccountBtn.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.NewAccountBtn.Location = new System.Drawing.Point(609, 267);
-            this.NewAccountBtn.Name = "NewAccountBtn";
-            this.NewAccountBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.NewAccountBtn.Size = new System.Drawing.Size(135, 125);
-            this.NewAccountBtn.TabIndex = 6;
-            this.NewAccountBtn.Text = "New Account";
-            this.NewAccountBtn.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.NewAccountBtn.Click += new System.EventHandler(this.NewAccountBtn_Click);
             // 
             // metroControlBox1
             // 
@@ -195,6 +91,113 @@ namespace HotelReservation
             this.metroControlBox1.ThemeAuthor = "Taiizor";
             this.metroControlBox1.ThemeName = "MetroLight";
             // 
+            // NewAccountBtn
+            // 
+            this.NewAccountBtn.BackColor = System.Drawing.Color.Transparent;
+            this.NewAccountBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.NewAccountBtn.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.NewAccountBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.NewAccountBtn.Image = null;
+            this.NewAccountBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.NewAccountBtn.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.NewAccountBtn.Location = new System.Drawing.Point(609, 267);
+            this.NewAccountBtn.Name = "NewAccountBtn";
+            this.NewAccountBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.NewAccountBtn.Size = new System.Drawing.Size(135, 125);
+            this.NewAccountBtn.TabIndex = 6;
+            this.NewAccountBtn.Text = "New Account";
+            this.NewAccountBtn.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.NewAccountBtn.Click += new System.EventHandler(this.NewAccountBtn_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button5.Image = null;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.button5.Location = new System.Drawing.Point(289, 247);
+            this.button5.Name = "button5";
+            this.button5.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.button5.Size = new System.Drawing.Size(234, 171);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "Change Password";
+            this.button5.TextAlignment = System.Drawing.StringAlignment.Center;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button4.Image = null;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.button4.Location = new System.Drawing.Point(25, 247);
+            this.button4.Name = "button4";
+            this.button4.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.button4.Size = new System.Drawing.Size(234, 171);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "RESERVATION";
+            this.button4.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // LogoutBtn
+            // 
+            this.LogoutBtn.BackColor = System.Drawing.Color.Transparent;
+            this.LogoutBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LogoutBtn.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.LogoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.LogoutBtn.Image = null;
+            this.LogoutBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.LogoutBtn.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.LogoutBtn.Location = new System.Drawing.Point(609, 79);
+            this.LogoutBtn.Name = "LogoutBtn";
+            this.LogoutBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.LogoutBtn.Size = new System.Drawing.Size(135, 125);
+            this.LogoutBtn.TabIndex = 3;
+            this.LogoutBtn.Text = "Logout";
+            this.LogoutBtn.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button2.Image = null;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.button2.Location = new System.Drawing.Point(289, 50);
+            this.button2.Name = "button2";
+            this.button2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.button2.Size = new System.Drawing.Size(234, 171);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "ROOM";
+            this.button2.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // ClientBtn
+            // 
+            this.ClientBtn.BackColor = System.Drawing.Color.Transparent;
+            this.ClientBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ClientBtn.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.ClientBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.ClientBtn.Image = null;
+            this.ClientBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ClientBtn.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.ClientBtn.Location = new System.Drawing.Point(25, 50);
+            this.ClientBtn.Name = "ClientBtn";
+            this.ClientBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.ClientBtn.Size = new System.Drawing.Size(234, 171);
+            this.ClientBtn.TabIndex = 1;
+            this.ClientBtn.Text = "CLIENT";
+            this.ClientBtn.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.ClientBtn.Click += new System.EventHandler(this.ClientBtn_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -221,7 +224,7 @@ namespace HotelReservation
         private ReaLTaiizor.Controls.Button button4;
         private ReaLTaiizor.Controls.Button LogoutBtn;
         private ReaLTaiizor.Controls.Button button2;
-        private ReaLTaiizor.Controls.Button button1;
+        private ReaLTaiizor.Controls.Button ClientBtn;
         private ReaLTaiizor.Controls.MetroControlBox metroControlBox1;
     }
 }

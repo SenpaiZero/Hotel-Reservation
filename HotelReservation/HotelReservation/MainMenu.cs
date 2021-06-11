@@ -40,5 +40,29 @@ namespace HotelReservation
             SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             DoubleBuffered = true;
         }
+
+        private void ClientBtn_Click(object sender, EventArgs e)
+        {
+            ClientForm client = new ClientForm();
+            this.Hide();
+            client.ShowDialog();
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ReservationForm reserve = new ReservationForm();
+            reserve.ShowDialog();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RoomFOrm room = new RoomFOrm();
+            room.ShowDialog();
+            this.Close();
+        }
     }
 }
